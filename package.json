@@ -1,0 +1,29 @@
+{
+  "name": "sairen-mcp",
+  "version": "1.3.0",
+  "description": "Project Sairen - Remote Model Context Protocol (MCP) Node Bridge",
+  "main": "index.js",
+  "bin": {
+    "sairen-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mcp-remote": "^0.14.3"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "sairen",
+    "ai-agent",
+    "tools",
+    "x402"
+  ],
+  "author": "Tyler Mitchell",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1tylermitchell/sairen_mcp.git"
+  }
+}

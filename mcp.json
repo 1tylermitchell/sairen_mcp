@@ -2,9 +2,13 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ca.omniapps/sairen",
   "title": "Project Sairen - Agentic Execution Node",
-  "description": "Zero-UI agentic infrastructure providing free multi-agent cleanup utilities (JSON repair, context trimming, precision time, public IP discovery) and deterministic x402 microservices.",
+  "description": "Zero-UI agentic execution node providing free multi-agent cleanup utilities (JSON repair, context trimming, precision NTP time, public IP discovery), progressive tool discovery, and deterministic x402 microservices across DeFi, Security, AgentOps, and System Resilience.",
   "websiteUrl": "https://sairen.omniapps.ca",
-  "version": "1.3.0",
+  "repository": {
+    "url": "https://github.com/1tylermitchell/sairen_mcp",
+    "source": "github"
+  },
+  "version": "1.6.0",
   "remotes": [
     {
       "type": "sse",
@@ -12,3 +16,4 @@
     }
   ]
 }
+
